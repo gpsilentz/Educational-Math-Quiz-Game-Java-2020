@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quiz math</string>
+    <string name="timeLeft">Time left:\u0020</string>
+    <string name="lives">Lives:\u0020</string>
+    <string name="timeout">Time out!\nNext One.</string>
+    <string name="score">Score:\u0020</string>
+    <string name="correctans">You are right!\nNext One.</string>
+    <string name="wrongans">You are wrong!\nNext One.</string>
+    <string name="round">Round:\u0020</string>
+    <string name="highscore">Highest score:\u0020</string>
+    <string name="curscore">Current score:\u0020</string>
+</resources>

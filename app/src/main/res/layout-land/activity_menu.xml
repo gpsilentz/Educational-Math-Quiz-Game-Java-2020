@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dasdas"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:fontFamily="@font/arbutus"
+        android:gravity="center"
+        android:text="Game menu"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_Play"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginBottom="24dp"
+        android:background="#F44336"
+        android:fontFamily="@font/arbutus"
+        android:text="Play"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_Leaderboard"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginBottom="24dp"
+        android:background="#4CAF50"
+        android:fontFamily="@font/arbutus"
+        android:text="Leaderboard"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_Settings"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginBottom="24dp"
+        android:background="#009688"
+        android:fontFamily="@font/arbutus"
+        android:text="Settings"
+        android:textSize="16sp" />
+
+</LinearLayout>

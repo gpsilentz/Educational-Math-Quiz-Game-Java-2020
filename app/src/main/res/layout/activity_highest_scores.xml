@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dasdas"
+    android:padding="16dp"
+    tools:context=".HighestScores_Activity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arbutus"
+        android:gravity="center"
+        android:text="Leaderboard"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <ListView
+        android:id="@+id/ListView_Scores"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="24dp"
+        android:textSize="24sp" />
+
+</LinearLayout>
